@@ -2,7 +2,7 @@ Options +FollowSymlinks -MultiViews
 RewriteEngine on
  
 ErrorDocument 404 /404.php
-DirectoryIndex page.php /404.php
+DirectoryIndex index.php /404.php
  
 RewriteRule ^nearby$ page.php?page=nearby [L,NC]
 RewriteRule ^details-([^/]*)$ page.php?page=details&id=$1 [L,NC]
