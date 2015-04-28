@@ -23,7 +23,7 @@
 				<a href="nearby">Nearby</a>
 			</nav>
 			<section class="view">
-				<?php incude 'nearby.php'; ?>
+				<?php include 'nearby.php'; ?>
 			</section>
 	</body>	
 </html>
