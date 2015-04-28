@@ -15,10 +15,44 @@
 	</head>
 	<body>
 		<div class="container">
-			<h1>
-				Landing page goes here
-			</h1>
-			<a href="tour">Start tour</a>
-		</div>
+			<header>
+				<h1>Amsterdam Audio Tour</h1>
+			</header>
+			<nav>
+				<a href="tour">Tour</a>
+				<a href="nearby">Nearby</a>
+			</nav>
+			<section class="view">
+				<?php
+					switch ($GET_['page']) //Verify input for page loading
+					{
+						case 'nearby':
+							$page = 'page-nearby';
+							break;
+
+						case 'details':
+							$page = 'page-details';
+							break;
+
+						case 'tour':
+							$page = 'page-tour';
+							break;
+
+						case 'details-tour':
+							$page = 'page-details-tour';
+							break;
+
+						case 'help':
+							$page = 'page-help';
+							break;
+						
+						default:
+							$page = '404';
+							break;
+					}
+
+					include $page . '.php'; //Include the page in the page view
+				?>
+			</section>
 	</body>	
 </html>
