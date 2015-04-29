@@ -22,7 +22,7 @@
 			</header>
 			<nav>
 				<?php
-					if($GET_['page'] == 'nearby' || $GET_['page'] == 'details')
+					if($_GET['page'] == 'nearby' || $_GET['page'] == 'details')
 					{
 						echo '	<a class="pagenav" href="tour">Tour</a>
 								<a class="pagenav activetab" href="nearby">Nearby</a>';
@@ -36,7 +36,7 @@
 			</nav>
 			<section class="view">
 				<?php
-					switch ($GET_['page']) //Verify input for page loading
+					switch ($_GET['page']) //Verify input for page loading
 					{
 						case 'nearby':
 							$page = 'page-nearby';
