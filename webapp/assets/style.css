@@ -148,3 +148,25 @@ nav
 
 /* Nearby page */
 
+
+/* Description page */
+.detailstitle
+{
+	width: 100%;
+	
+}
+
+.detailsimage
+{
+	
+	background-image: url(../images/sights/ concertgebouw.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.detailsdescription
+{
+	margin: 0 30px;
+	font-size: 1em;
+}
+
