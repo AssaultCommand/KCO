@@ -137,13 +137,14 @@ nav
 
 .card
 {
-	margin: 15px 30px;
+	position: relative;
+	margin: 1.5% 3%;
 	background-color: white;
 }
 
-.card:nth-child(3n-1)
+.card:nth-child(1)
 {
-	margin-top: 60px;
+	margin-top: 4%;
 }
 
 /* Error Page */
@@ -170,21 +171,28 @@ nav
 /* Description page */
 .detailstitle
 {
+	margin: 3%;
+	padding-top: 2%;
 	width: 100%;
 	
+	text-transform: uppercase;
+	color: #C51A1A;
 }
 
 .detailsimage
 {
-	
-	background-image: url(../images/sights/ concertgebouw.jpg);
+	margin: 0 3%;
+	height: 150px;
+	width: calc(100% - 90px);
+	background-image: url(../images/sights/concertgebouw.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: 50%;
 }
 
 .detailsdescription
 {
-	margin: 0 30px;
+	margin: 6% 3% 3%;
 	font-size: 1em;
 }
 
