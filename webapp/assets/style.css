@@ -116,7 +116,7 @@ nav
 {
     padding-top: 110px;
     width: 100%;
-    height: calc(100% - 110px);
+    min-height: calc(100% - 110px);
     background-color: #ebebeb;
 }
 
@@ -124,15 +124,16 @@ nav
 
 .errortitle
 {
-	margin: 20% 0 30px;
+	margin: 15% 0 30px;
 	width: 100%;
 	font-size: 10em;
+	line-height: 1em;
 	text-align: center;
 }
 
 .errortext
 {
 	margin: 0 30px;
-	font-size: 1.1em;
+	font-size: 1em;
 	text-align: center;
 }
