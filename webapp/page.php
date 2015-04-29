@@ -17,7 +17,9 @@
 		<div class="container">
 			<header>
 				<div class="buttonback"></div>
-					<h1 class="pagetitle">Amsterdam Tour</h1>
+					<a href="tour">
+						<h1 class="pagetitle">Amsterdam Tour</h1>
+					</a>
 				<div class="buttoninfo"></div>
 			</header>
 			<nav>
