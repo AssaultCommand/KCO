@@ -59,7 +59,7 @@ header
 	background-repeat: no-repeat;
 	background-size: 35px;
 	background-position: 50%;
-	transition: opacity 300ms linear;
+	transition: opacity 200ms linear;
 }
 
 .buttonback:hover, .buttoninfo:hover
@@ -102,12 +102,20 @@ nav
 	color: white;
     text-decoration: none;
 	text-transform: uppercase;
+	opacity: 0.6;
+	transition: opacity 200ms linear;
+}
+
+.pagenav:hover
+{
+	opacity: 1;
 }
 
 .activetab
 {
 	height: 46px;
 	border-bottom: 4px solid white;
+	opacity: 1;
 }
 
 /* Content Area */

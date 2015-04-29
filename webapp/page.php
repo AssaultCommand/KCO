@@ -21,8 +21,18 @@
 				<div class="buttoninfo"></div>
 			</header>
 			<nav>
-				<a class="pagenav activetab" href="tour">Tour</a>
-				<a class="pagenav" href="nearby">Nearby</a>
+				<?php
+					if($GET_['page'] == 'nearby' || $GET_['page'] == 'details')
+					{
+						echo '	<a class="pagenav" href="tour">Tour</a>
+								<a class="pagenav activetab" href="nearby">Nearby</a>';
+					}
+					else
+					{
+						echo '	<a class="pagenav activetab" href="tour">Tour</a>
+								<a class="pagenav" href="nearby">Nearby</a>';
+					}
+				?>
 			</nav>
 			<section class="view">
 				<?php
