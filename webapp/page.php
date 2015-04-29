@@ -16,11 +16,13 @@
 	<body>
 		<div class="container">
 			<header>
-				<h1>Amsterdam Audio Tour</h1>
+				<div class="buttonback"></div>
+					<h1 class="pagetitle">Amsterdam Tour</h1>
+				<div class="buttoninfo"></div>
 			</header>
 			<nav>
-				<a href="tour">Tour</a>
-				<a href="nearby">Nearby</a>
+				<a class="pagenav activetab" href="tour">Tour</a>
+				<a class="pagenav" href="nearby">Nearby</a>
 			</nav>
 			<section class="view">
 				<?php
