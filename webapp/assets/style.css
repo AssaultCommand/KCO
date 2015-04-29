@@ -39,7 +39,7 @@ header
 	background-color: #C51A1A;
 }
 
-.pagetitle
+h1.pagetitle
 {
 	width: calc(100% - 120px);
 	margin: 0 auto;
@@ -48,6 +48,11 @@ header
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: 400;
+}
+
+a.pagetitle
+{
+	text-decoration: none;
 }
 
 .buttonback, .buttoninfo
@@ -125,7 +130,20 @@ nav
     padding-top: 110px;
     width: 100%;
     min-height: calc(100% - 110px);
-    background-color: #ebebeb;
+    background-color: #DDDDDD;
+}
+
+/* Cards */
+
+.card
+{
+	margin: 15px 30px;
+	background-color: white;
+}
+
+.card:nth-child(3n-1)
+{
+	margin-top: 60px;
 }
 
 /* Error Page */
