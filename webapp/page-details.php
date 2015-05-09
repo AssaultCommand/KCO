@@ -1,11 +1,16 @@
-<section class="card">
-  		<h2 class="detailstitle">Royal Concertgebouw Orchestra</h2>
+	<section class="card">
+		<h2 class="detailstitle">Royal Concertgebouw Orchestra</h2>
 		
-		<div class="detailsimage"></div>
-		<div class="togglebutton">
-          <div class="addbutton"></div>
-          <div class="mapbutton"></div>
-  		</div>
+		<div class="sightaddandloc">
+			<div class="detailsimage"></div>
+			
+			<div class="togglebuttons">
+			  <div class="addbutton togglebutton"></div>
+			  <div class="mapbutton togglebutton"></div>
+			  <div class="distance">1.5 KM</div>
+			</div>
+		</div>
+		
 		<div class="soundbutton"></div>
 		
 		<p class="detailsdescription">
@@ -15,4 +20,4 @@
 			first chief conducter, Willem Kes.
 			
 		</p>
-    </section>
+	</section>
