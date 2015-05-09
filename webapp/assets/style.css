@@ -169,6 +169,7 @@ nav
 
 
 /* Description page */
+
 .detailstitle
 {
 	margin: 3%;
@@ -190,9 +191,33 @@ nav
 	background-position: 50%;
 }
 
+.togglebuttons
+{
+	float: right;
+}
+
+.mapbutton
+{
+	background-image: url(../images/location.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.addbutton
+{
+	background-image: url(../images/add.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.soundbutton
+{
+
+}
+
 .detailsdescription
 {
-	margin: 6% 3% 3%;
+	margin: 6% 3% 3% 6%;
 	font-size: 1em;
 }
 

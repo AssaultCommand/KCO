@@ -2,8 +2,11 @@
   		<h2 class="detailstitle">Royal Concertgebouw Orchestra</h2>
 		
 		<div class="detailsimage"></div>
-		<div class="togglebutton"></div>
-		<div class="mapbutton"></div>
+		<div class="togglebutton">
+          <div class="addbutton"></div>
+          <div class="mapbutton"></div>
+  		</div>
+		<div class="soundbutton"></div>
 		
 		<p class="detailsdescription">
 			The Concertgebouw opened on 11 April 1888. The Concertgebouw
