@@ -167,6 +167,53 @@ nav
 
 /* Nearby page */
 
+.nearby
+{
+	height: 100px;
+	text-align: center;
+}
+
+.nearbyimage
+{
+	padding-right: 10px;
+	float: left;
+	height: 100px;
+	width: calc(100% - 200px);
+	background-image: url(../images/sights/concertgebouw.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50%;
+}
+
+.nearbyinfo
+{
+	float: right;
+}
+
+.nearby_sights
+{
+	margin-bottom: 4px;
+	margin-left: 3%;
+	padding-top: 6px;
+	color: black;
+}
+
+.distancenear
+{
+	margin-top: 0;
+	margin-left: 3%;
+	padding-bottom: 10px;
+	font-size: 15px;
+	color: black;
+}
+
+.nearbytitle
+{
+	float: left;
+	text-transform: uppercase;
+	font-size: 15px;
+	color: #C51A1A;
+}
 
 /* Description page */
 
