@@ -130,7 +130,7 @@ nav
     padding-top: 110px;
     width: 100%;
     min-height: calc(100% - 110px);
-    background-color: #E2E2E2;
+    background-color: #ebebeb;
 }
 
 /* Cards */
@@ -138,13 +138,21 @@ nav
 .card
 {
 	position: relative;
-	margin: 1.5% 3%;
+	margin: 3% 3%;
 	background-color: white;
 }
 
 .card:nth-child(1)
 {
 	margin-top: 4%;
+}
+
+.cardTitle
+{
+	margin: 0;
+	padding: 10px 15px 0;
+	text-transform: uppercase;
+	color: black;
 }
 
 /* Error Page */
@@ -167,18 +175,24 @@ nav
 
 /* Nearby page */
 
-.nearby
+.nearbySightsCard
+{
+	height: 115px;
+}
+
+.nearbyCard
 {
 	height: 100px;
-	text-align: center;
 }
 
 .nearbyimage
 {
 	padding-right: 10px;
 	float: left;
-	height: 100px;
-	width: calc(100% - 200px);
+	min-height: 100px;
+	height: 100%;
+	width: 187px;
+	max-width: 30%;
 	background-image: url(../images/sights/concertgebouw.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -190,29 +204,104 @@ nav
 	float: right;
 }
 
-.nearby_sights
+.maximumDistance
 {
-	margin-bottom: 4px;
-	margin-left: 3%;
-	padding-top: 6px;
+	margin: 10px 15px 0;
+	font-size: 16px;
 	color: black;
 }
 
-.distancenear
+.maximumDistanceValue
 {
-	margin-top: 0;
-	margin-left: 3%;
-	padding-bottom: 10px;
-	font-size: 15px;
-	color: black;
+	position: absolute;
+	right: 15px;
+	font-size: 16px;
+	font-weight: 600;
+	color: #C51A1A;
+}
+
+.maximumDistanceSlider
+{
+	height: 5px;
+	margin: 20px 15px;
+	background-color: grey;
+}
+
+.maximumDistanceSlider:after
+{
+	content: '';
+	display: block;
+	width: 30%;
+	height: 5px;
+	background-color: #C51A1A;
+}
+
+.maximumDistanceHandlebar
+{
+	position: absolute;
+	left: 30%;
+	height: 25px;
+	width: 25px;
+	margin: -10px 0 0 0;
+	background-color: #C51A1A;
+	border-radius: 50%;
+	cursor: pointer;
 }
 
 .nearbytitle
 {
-	float: left;
+	
+	position: absolute;
+	left: 30%;
+	top: 10px;
+	font-size: 16px;
+	font-weight: 600;
+	margin: 0;
+	display: table;
+	padding: 0 5px 0 15px;
 	text-transform: uppercase;
-	font-size: 15px;
+	word-wrap: break-word;
+	font-size: 18px;
 	color: #C51A1A;
+}
+
+.distancenearby
+{
+	position: absolute;
+	left: 30%;
+	bottom: 15px;
+	font-size: 16px;
+	font-weight: 400;
+	display: table;
+	padding: 0 5px 0 15px;
+	margin: 0;
+}
+
+.nearbyPopupMenu
+{
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	width: 25px;
+	height: 100%;
+	background-image: url(images/static/popupMenu.jpg);
+	background-position: 50%;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+@media (max-width: 420px) 
+{
+	.nearbytitle
+	{
+		font-size: 16px;
+	}
+
+	.distancenearby
+	{
+		font-size: 14px;
+	}
 }
 
 /* Description page */
