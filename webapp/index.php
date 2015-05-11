@@ -13,60 +13,20 @@
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 		<script src="assets/source.js" type="text/javascript"></script>
 	</head>
-
-		<style>img#logo{
-			display: block;
-			margin top: 10%;
-			margin-left: auto;
-			margin-right: auto;
-		}
-
-		h1#landing{
-			text-align: center;
-			font-size: 200%;
-			margin-top: 15%;
-		}
-
-		a#linkLanding{
-			background-color: #C51A1A;
-			text-decoration: none;
-			font-size: 2em;
-			color: white;
-			padding: 5%;
-			text-align: center;
-			display: block;
-			width: 40%;
-			margin-left: auto;
-			margin-right: auto;
-
-			}
-		
-
-
-
-			</style>
-
-
 	<body>
 		<div class="container">
 			<header>
-					<a class="pagetitle" href="tour">
-						<h1 class="pagetitle">Amsterdam Tour</h1>
-					</a>
+				<a class="pagetitle" href="tour">
+					<h1 class="pagetitle">Amsterdam Tour</h1>
+				</a>
 			</header>
-
-			<section class="view">
-
-				<img id="logo" src="images/kco.png" width="50%" height="50%">
-
-				<h1 id="landing">Amsterdam Tour</h1>
-
-				<a id="linkLanding" href="tour">Start tour</a>
-
+			<section class="view landingView">
+				<section class="card">
+					<img class="landingLogo" src="images/static/kcoLogo.png">
+					<h1 class="landingTitle">Amsterdam Tour</h1>
+					<a class="landingLink" href="tour">Start tour</a>
+				</section>
 			</section>
-
-
-			
 		</div>
 	</body>	
 </html>

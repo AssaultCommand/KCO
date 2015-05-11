@@ -28,10 +28,13 @@ h1
 	font-size: 1.4em;
 }
 
-/* Header onderdelen */
+
+/* --- Header Styling --- */
+
 header
 {
 	position: fixed;
+	z-index: 100;
 	width: 100%;
 	max-width: 720px;
 	height:  60px;
@@ -84,11 +87,12 @@ a.pagetitle
 	background-image: url(../images/info.png);
 }
 
-/* Navigatie onderdelen */
+/* -- Navigation Parts -- */
 
 nav
 {
 	position: fixed;
+	z-index: 100;
 	top: 60px;
 	height: 50px;
 	width: 100%;
@@ -123,23 +127,26 @@ nav
 	opacity: 1;
 }
 
-/* Content Area */
+
+/* --- Content Area --- */
 
 .view
 {
     padding-top: 125px;
     width: 100%;
-    min-height: calc(100% - 110px);
+    min-height: calc(100% - 125px);
     background-color: #ebebeb;
+    overflow: auto;
 }
 
-/* Cards */
+/* -- Cards -- */
 
 .card
 {
 	position: relative;
 	margin: 3% 3%;
 	background-color: white;
+	overflow: auto;
 }
 
 .cardButton
@@ -157,7 +164,7 @@ nav
 	color: black;
 }
 
-/* Error Page */
+/* -- Error Page -- */
 
 .errortitle
 {
@@ -175,7 +182,48 @@ nav
 	text-align: center;
 }
 
-/* Nearby page */
+/* -- Landing page -- */
+
+.landingView
+{
+	padding-top: 80px;
+	min-height: calc(100% - 80px);
+}
+
+.landingLogo
+{
+	display: block;
+	width: 50%;
+	margin top: 10%;
+	max-width: 288px;
+	margin: 30px auto 0;
+}
+
+.landingTitle
+{
+	margin: 10% 15px 0;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 2.5em;
+	color: #1F1F1F;
+}
+
+.landingLink
+{
+	display: block;
+	margin: 12% auto 25px;
+	padding: 4% 2%;
+	width: 70%;
+	max-width: 380px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	color: white;
+	background-color: #C51A1A;
+}
+
+/* -- Nearby page -- */
 
 .nearbySightsCard
 {
@@ -307,7 +355,7 @@ nav
 	}
 }
 
-/* Description page */
+/* -- Description page -- */
 
 .detailstitle
 {
@@ -349,15 +397,15 @@ nav
 {
 	float: left;
 	width: 55px;
-	height: 20px;
-	font-size: 14px;
+	height: 15px;
+	font-size: 15px;
 	line-height: 10px;
 	text-align: center;
 }
 
 .togglebutton
 {
-	margin-bottom: 11px;
+	margin-bottom: 12px;
 	float: right;
 	height: 55px;
 	width: 55px;
@@ -367,12 +415,12 @@ nav
 
 .mapbutton
 {
-	background-image: url(../images/location.png);
+	background-image: url(../images/static/mapLocation.png);
 }
 
 .addbutton
 {
-	background-image: url(../images/add.png);
+	background-image: url(../images/static/toggleAdd.png);
 }
 
 .detailsdescription
