@@ -37,7 +37,7 @@
 			first chief conducter, Willem Kes.
 		</p>
 
-		<p class"detailsdescription">
+		<p class="detailsdescription">
 			The Royal Concertgebouw Orchestra is a symphony orchestra in the Netherlands, 
 			based at the Amsterdam Royal Concertgebouw (concert hall). 
 			In 1988, Queen Beatrix conferred the "Royal" title upon the orchestra.
