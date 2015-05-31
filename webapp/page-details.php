@@ -1,3 +1,12 @@
+	
+ <script>
+  function play(){
+       var audio = document.getElementById("audio");
+       audio.play();
+                 }
+   </script>
+
+
 	<section class="card">
 		<h2 class="detailstitle">Royal Concertgebouw Orchestra</h2>
 		
@@ -11,7 +20,10 @@
 			</div>
 		</div>
 		
+		<a href="#" onclick="play()">
 		<div class="soundButton"></div>
+		</a>
+		<audio id="audio" src="audio/BeethovenFantasia.mp3" ></audio>
 		<div class="soundProgress">
 			<div class="soundProgressHandlebar"></div>
 		</div>
