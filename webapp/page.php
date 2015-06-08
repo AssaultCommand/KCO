@@ -5,7 +5,7 @@
 		<meta name="title" content="Amsterdam Audio Tour by KCO">
 		<meta name="description" content="Tour through Amsterdam in a fun, interactive and immersive way.">
 		<meta name="keywords" content="Amsterdam, tour, audio, tourist">
-		<meta name='viewport' content='width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no'>
+		<meta name='viewport' content='width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui'>
 		<meta name="theme-color" content="#C51A1A">
 		<title>Amsterdam Audio Tour</title>
 		<link rel="shortcut icon" type="image/x-icon" href="images/static/favicon.ico">
@@ -20,7 +20,6 @@
 					<a class="pagetitle" href="tour">
 						<h1 class="pagetitle">Amsterdam Tour</h1>
 					</a>
-				<div class="buttoninfo"></div>
 			</header>
 			<nav>
 				<?php

@@ -1,5 +1,10 @@
 $(document).ready(function() 
 {
+	$(document).on('click', '.buttonback', function()
+	{
+		history.go(-1);
+	});
+
 	/* --- Portfolio Handling --- */
 
 	if($('.portfolio').length)

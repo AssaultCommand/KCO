@@ -6,7 +6,7 @@
 		<meta name="description" content="Tour through Amsterdam in a fun, interactive and immersive way.">
 		<meta name="keywords" content="Amsterdam, tour, audio, tourist">
 		<meta name='viewport' content='width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no'>
-		<meta name="theme-color" content="#00aeef">
+		<meta name="theme-color" content="#C51A1A">
 		<title>Amsterdam Audio Tour</title>
 		<link rel="shortcut icon" type="image/x-icon" href="images/static/favicon.ico">
 		<link rel="stylesheet" href="assets/style.css" type="text/css">
@@ -23,6 +23,7 @@
 			<section class="view landingView">
 				<section class="card">
 					<img class="landingLogo" src="images/static/kcoLogo.png">
+					<p class="landingCredit">Royal Concertgebouw Orchestra presents:</p>
 					<h1 class="landingTitle">Amsterdam Tour</h1>
 					<a class="landingLink" href="tour">Start tour</a>
 				</section>
